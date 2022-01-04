@@ -7,4 +7,4 @@ phases:
       - apt update && apt install -y postgresql-client
   pre_build:
     commands:
-      - run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=github-int
+      - mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=github-int
