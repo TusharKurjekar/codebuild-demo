@@ -1,7 +1,7 @@
 version: 0.2
 phases:
   install:
-   -- runtime-versions:
+    runtime-versions:
       java: corretto11
     commands:
       - apt update && apt install -y postgresql-client
